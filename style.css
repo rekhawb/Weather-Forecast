@@ -1,0 +1,82 @@
+
+html{
+    width:96%;
+    margin:auto;
+}
+
+body{
+
+    width:96%;
+    margin:auto;
+    background-color: gainsboro;
+}
+
+header{
+   background-color: #1e698d;
+   color: rgb(255, 255, 255);
+    line-height: 8rem;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bolder;
+  /*  min-width:650px;*/
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.resultsCard{
+margin:5px;
+padding:5px;
+font-size:1.5rem;
+/*border: thick solid #1e698d;*/
+background-color: rgba(30, 105, 141, 1); /* #1e698d;*/
+
+font-weight: bold;
+color:white;
+text-align: left;
+text-align: center;
+
+}
+
+.resultsCard1{
+  /*padding: 5px;
+  margin:5px;*/
+  font-size:1rem;
+
+}
+
+
+.srchCard{
+    font-size: 2rem;
+    text-align: center;
+   /* width:10%;*/
+
+}
+
+#demoMap {
+    height: 650px;
+    /* width: 50%;*/
+    margin:5px;
+    padding:5px;
+ 
+    }
+
+.resultsCard{
+    margin:5px;
+    padding:5px
+}
+
+    thead{
+
+        font-size:1rem;
+        border: solid 1px black;
+    }
+
+    th,td{
+
+        font-size: 1rem;
+        border: solid 1px black;
+    }

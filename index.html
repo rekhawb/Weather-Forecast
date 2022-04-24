@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <header >Weather Dashboard</header>      
+        <!--<div   id="demoMap">
+        </div>-->
+
+       
+        <div class="container-fluid">
+          <h3 class="card-title" style="color:rgba(30, 105, 141, 1); font-weight:bold">Search for a City:</h3>
+          <input type="text" id="srchCity" placeholder="By City" />
+          <button type="submit" class="btn btn-primary" id="search">
+            Submit
+          </button>
+         <!-- <p>Resize the browser window to see the effect.</p>-->
+          <div class="row">
+            <div class="col-sm-3 col-md-4" id="Map">
+            </div>
+            <div class="col-sm-9 col-md-6" id="displayResults2" style:"background-color:#1e698d">
+            </div>
+          </div>
+        </div>
+
+   <script src="./script.js"></script>
+   <!-- <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/build/ol.js"></script>-->
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+   
+  </body>
+</html>
